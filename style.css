@@ -1,4 +1,9 @@
 body {
-    background-color: orchid;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    font-family: 'verdana', 'arial';
+}
+h1 {
+    margin: 0;
 }

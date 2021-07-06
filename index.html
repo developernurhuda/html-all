@@ -16,32 +16,209 @@
 
 
 
-<!-- Images tag  -->
-<img src="./1.jpg" alt="Images">
+    <!-- Images tag  -->
+    <img src="./1.jpg" alt="Images">
 
-<!-- image width height style -->
-<img src="1.jpg" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <!-- image width height style -->
+    <img src="1.jpg" alt="Girl in a jacket" style="width:300px;height:200px;">
 
-<!-- width / heigth without style  -->
-<img src="1.jpg" alt="Girl in a jacket" width="300" height="300">
+    <!-- width / heigth without style  -->
+    <img src="1.jpg" alt="Girl in a jacket" width="300" height="300">
 
-<br> <br>
+    <br> <br>
 
-<!-- iframe -->
-<iframe src="https://www.developernurhuda.com" height="300px" width="500px" title="Iframe Example" style="border: none"></iframe>
-
-
-
-<!-- iframe with a anchor tag -->
-<iframe src="https://www.developernurhuda.com" name="iframe_a" height="300px" width="500px" title="Iframe Example"></iframe>
-
-<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+    <!-- iframe -->
+    <iframe src="https://www.developernurhuda.com" height="300px" width="500px" title="Iframe Example"
+        style="border: none"></iframe>
 
 
 
+    <!-- iframe with a anchor tag -->
+    <iframe src="https://www.developernurhuda.com" name="iframe_a" height="300px" width="500px"
+        title="Iframe Example"></iframe>
+
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
 
 
 
+    <!-- html form  -->
+    <h1> HTML FORM </h1>
+    <hr>
+    <div class="form">
+        <form action="">
+            <label for=""> button </label> <input type="button"> <br>
+            <label for=" "> checkbox </label><input type="checkbox"> Web design <br>
+            <label for=""> color </label> <input type="color"> <br>
+            <label for=""> date </label> <input type="date"> <br>
+            <label for=""> datetimelocal </label> <input type="datetime-local"> <br>
+            <label for=""> Email : </label> <input type="email"> <br>
+            <label for=""> Hidden : </label><input type="hidden"> <br>
+            <label for=""> Image : </label><input type="image"> <br>
+            <label for=""> Month : </label><input type="month"> <br>
+            <label for=""> File : </label><input type="file"> <br>
+            <label for=""> Number : </label><input type="number"> <br>
+            <label for=""> Password : </label><input type="password"> <br>
+            <label for=""> Radio Button : </label><input type="radio"> HTML <br>
+            <label for=""> Range : </label><input type="range"> <br>
+            <label for=""> Search : </label><input type="search"> <br>
+            <label for=""> Submit : </label><input type="submit"> <br>
+            <label for=""> Tel : </label> <input type="tel"> <br>
+            <label for=""> Text : </label><input type="text"> <br>
+            <label for=""> Time : </label><input type="time"> <br>
+            <label for=""> Url : </label> <input type="url"> <br>
+            <label for=""> Week : </label> <input type="Week"> <br>
+            <label for=""> Reset : </label><input type="reset" submit="Reset"> <br>
+
+        </form>
+    </div>
+
+    <br> <br>
+    <!-- name/ id same value  dile kno problem hobena -->
+    <!-- label for er value and input er id value same hole, label text er upor click korle input box focus hoye jabe, aita hocce for and id er kaj  - for/id value (-) hypen diye likte hobe like [first-name], name underscore diye likte hobe, like [first_name]-->
+
+    <div class="form">
+        <form action="">
+            <label for="first-name"> First Name : </label>
+            <input type="text" name="firstName" id="first-name" placeholder="First Name ">
+
+            <br> <br>
+
+            <label for="last-name"> Last Name </label>
+            <input placeholder="Last Name" type="text" name="last_name" id="last-name">
+
+            <br> <br>
+            <label for=""> Gender : </label>
+            <input type="radio" name="gender" id="male" value="male"> <label for="male"> Male </label>
+            <input type="radio" name="gender" id="female" value="female"> <label for="female"> Female </label>
+            <input type="radio" name="gender" id="other" value="other"> <label for="other"> Other </label>
+
+            <br> <br>
+            <label for=""> Qualificatons : </label>
+            <input type="checkbox" name="qualification" id="hsc" value="hsc"> <label for="hsc"> HSC </label>
+            <input type="checkbox" name="qualification" id="master" value="master"> <label for="master"> MASTERS
+            </label>
+            <input type="checkbox" name="qualification" id="inter" value="inter"> <label for="inter"> Inter </label>
+            <br> <br>
+            <input type="submit" value="Submit" name="submit">
+            <input type="reset" value="Reset" name="reset">
+
+        </form>
+    </div>
+
+    <br> <br>
+    <h1> More form </h1>
+
+    <div class="form">
+        <form action="" novalidate>
+            <!-- kono requird kaj korbena full form ai attributers dile-->
+            <label for="fname"> First Name (*) : </label>
+            <input type="text" name="fname" id="fname" required> <br>
+
+
+            <!-- readonly -->
+            <label for="fname"> Read Only : </label>
+            <input type="text" name="fname" id="fname" value="I am Web developer" readonly> <br>
+
+            <!-- maxlength -->
+            <label for="fname"> Max Length : </label>
+            <input type="text" name="fname" id="fname" maxlength="5"> <br>
+
+
+            <label for="graphic-design"> Graphic Design Skill Select : </label>
+            <select name="graphic_design" id="graphic-design">
+                <option> Select Rigth KeyWord </option>
+                <option value="photoshop"> Photoshop </option>
+                <option value="illustrator"> Illustrator </option>
+                <option value="adobexd"> Adobe XD </option>
+            </select>
+
+            <br> <br>
+
+            <label for="Web-design"> Web Design Skill Select : </label>
+            <select name="web_design" id="Web-design">
+                <option> Select Rigth KeyWord </option>
+                <option value="html"> HTML </option>
+                <option value="php"> CSS </option>
+                <option value="php"> PHP </option>
+            </select>
+
+            <br> <br>
+
+            <!-- text area  -->
+            <label for="comments"> Give Your Comments : </label> <br>
+            <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+
+            <br>
+
+            <!-- multple: select more file  -->
+            <input type="file" multiple name="" id="">
+
+            <!-- auto focus --> <br>
+            <label for=""> Auto focus : </label>
+            <input type="text" name="first-name" id="first-name">
+            <br>
+            <!-- target self -->
+            <input type="submit" value="Submit" formtarget="_blank">
+
+        </form>
+    </div>
+
+    <!-- video -->
+    <h1> Video and Audio </h1>
+
+    <div class="media">
+        <video width="320" height="240" controls>
+            <source src="1.mp4">
+        </video>
+    </div>
+
+    <!-- auto play -->
+    <div class="media">
+        <video width="320" height="240" autoplay muted>
+            <source src="1.mp4">
+        </video>
+    </div>
+
+    <!-- auto play muted - play hobe but sound hobena -->
+    <div class="media">
+        <video width="320" height="240" autoplay muted>
+            <source src="1.mp4">
+        </video>
+    </div>
+
+    <!-- audio - all attribute same of video  -->
+    <div class="media">
+        <audio controls>
+            <source src="1.ogg" type="audio/ogg">
+        </audio>
+    </div>
+
+
+
+    <br> <br>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div style="margin-bottom: 450px;"></div>
 </body>
 
 </html>

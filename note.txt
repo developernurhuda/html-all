@@ -1,0 +1,369 @@
+:: HTML 
+=============
+- HTML example practice 
+- HTML References
+- HTML Attribute Reference
+: action - form 
+: alt - area img input
+: autofocus - [<!-- auto focus : je input e auto focus dibe , page load korar sathe sathe sei input box e cursor show hobe (input,button,textarea te dite parbe)-->]
+: autoplay - audio - video  
+: checked 
+: cite - blockquote - del - ins-q 
+: class
+: cols - textarea 
+: colspan - td th
+: content - meta
+: controls - audio - video
+: data - object 
+: data - global attributes
+: datetime - del - ins - time 
+: download - a - area 
+: for - label - output
+: form - button - fieldset - input - label - meter - object - output - select - textarea 
+: headers - td th 
+: height 
+: hidden -- global attributes 
+: href - a - area - base - link 
+: id 
+: label 
+: lang 
+: list - input 
+: loop - audio / video 
+: max - input/meter/progress
+: maxlength - input/textarea 
+: media - 
+: method 
+: min - input-meter
+: muted - audio/video
+: name - button/fieldset/form/ifram/input/map/meta/
+: onafterprint - body 
+: href -a 
+: src - img 
+: width / height - image 
+: alt -  image 
+: style - 
+: title 
+: lang 
+
+- HTML - heading 
+-------------------------
+: h1-h6 
+
+- Paragraph html 
+-----------------------
+: p 
+: hr
+: br 
+: pre 
+
+- Style summary 
+----------------------------
+: background - color 
+: color 
+: font-family 
+: font-size 
+: text-align 
+
+formatting
+-------------
+: b tag 
+: strong tag 
+: i tag 
+: em tag 
+: mark tag 
+: small tag 
+: del tag 
+: ins tag 
+: sub tag 
+: sup tag 
+
+Quotation
+-------------------
+: abbr 
+: address 
+: bdo 
+: blockquote 
+: cite 
+: q 
+
+Link 
+------------
+: a 
+: href 
+: target - _blank 
+: img 
+: mailto: <p><a href="mailto:someone@example.com">Send email</a></p>
+: link color 
+: a:link - view color 
+: a:visited - after visit show this color 
+: a:hover - hover korle show hbe
+: a:active - click korle show hobe
+
+Images tag
+-------------------
+: img 
+: src 
+: alt 
+: style
+
+table
+--------------------
+: table 
+: tr 
+: td 
+: th 
+: caption 
+: border 
+: border-collapse
+: padding 
+: text-align 
+: border-spacing 
+: colspan 
+: rowspan 
+: id 
+: colgroup 
+: col 
+: thead 
+: tfoot
+: tbody
+
+List
+--------------
+: ul 
+: ol 
+: li 
+: dl
+: dt
+: dd
+
+Block level elements
+--------------------------------
+<address> article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt> <fieldset> <figcaption> <figure> 
+<footer> <form> <h1> <h6> <header> <hr> <li>
+<main> <nav> <noscript> <ol> <p> <pre> <section>
+<table> <tfoot> <ul> <video>
+
+Inline elements
+-----------------------------
+<a> <abbr> <acronym> <b> <bdo> <big> <br> <button>
+<cite> <code> <dfn> <em> <i> <img> <input> <kbd>
+<label> <map> <object> <output> <q> <samp> <script>
+<select> <small> <span>
+
+Iframe
+---------------
+: iframe 
+: src
+: title 
+: height width
+: border: none
+: link with a - anchor tag - https://www.w3schools.com/html/tryit.asp?filename=tryhtml_iframe_target
+
+Layout
+------------------
+: header 
+: nav 
+: section
+: article 
+: aside 
+: footer 
+: details 
+: summary 
+
+HTML Layout Techniques
+-------------------------------
+: css framework 
+: css float
+: css flexbox 
+: css grid 
+
+form 
+----------------
+: novalidate - kono requird kaj korbena full form 
+: autocomplete - ekbar input box fill up korle, pore oi box e focus korle dropdown hisebe value show kore , ai value show korte  hole ai attribures use korte hobe. 
+: use in particular input or form tag - autocomplete="off"
+: image - https://prnt.sc/18xozg1
+: target ="_blank" - use in form tag - submit korle new tab e open hobe
+
+HTML TAG LIST
+-----------------------
+: <!-- --> - comments 
+: doctype 
+: a - anchor
+: abbr - abbreviation
+: address 
+: article 
+: aside 
+: audio 
+: b 
+: blockqoute 
+: body 
+: br 
+: button 
+: caption 
+: cite 
+: code 
+: col 
+: colgroup 
+: div 
+: em 
+: fieldset 
+: figcaption 
+: figure 
+: footer 
+: form 
+: h1-h6 
+: head 
+: header 
+: hr 
+: html 
+: i 
+: iframe 
+: img 
+: input 
+: ins 
+: label 
+: legend 
+: li 
+: link 
+: mark 
+: nav 
+: ol 
+: option 
+: p 
+: q 
+: pre
+: section 
+: select 
+: small 
+: span 
+: strong 
+: style 
+: sub 
+: sup 
+: table 
+: tbody 
+: td 
+: textarea 
+: tfoot 
+: th 
+: thead 
+: title 
+: tr 
+: u 
+: ul 
+: video 
+
+Basic html tag 
+---------------------
+- doctype 
+- html 
+- head
+- title 
+- body
+- h1-h6 
+- p 
+- br 
+- hr 
+- <!-- comments-->
+
+Formatting html tag 
+-------------------------
+- abbr 
+- address
+- b 
+- bdi 
+- bdo 
+- blockqoute 
+- cite 
+- code 
+- del 
+- em 
+- i 
+- ins 
+- pre 
+- q 
+- mark 
+- small 
+- strong 
+- sub 
+- sup 
+- time 
+- u 
+- var
+
+Form html tag list
+----------------------
+- form 
+- input 
+- textarea 
+- button 
+- select 
+- optgroup 
+- option 
+- label 
+- fieldset 
+- legend 
+- datalist 
+- output 
+- checked
+- multiple - one or more image select kora jabe
+
+image html tag 
+---------------------
+- img 
+- figcaption
+- figure 
+- picture 
+- svg 
+
+link html tag 
+-----------------
+- a 
+- link - <link rel="stylesheet" href="styles.css">
+- nav 
+
+List html tag list
+---------------------
+- ul 
+- ol 
+- li 
+- dl 
+- dt 
+- dd 
+
+table 
+---------------
+- table 
+- caption 
+- th
+- td 
+- tr 
+- thead 
+- tbody 
+- tfoot 
+- col 
+- colgroup 
+
+Styles and Semantics
+----------------------------
+- style
+- div 
+- span 
+- header 
+- footer 
+- main 
+- section 
+- article 
+- aside 
+- details 
+- dialog 
+- summary 
+- data 
+
+HTML Attribute Reference
+-----------------------------------
+
+
+
+

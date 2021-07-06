@@ -1,0 +1,7 @@
+/* Responsive design with media Quories  */
+@media (max-width: 600px) {
+    nav,article {
+        width: 100%;
+        height: auto;
+    }
+}
